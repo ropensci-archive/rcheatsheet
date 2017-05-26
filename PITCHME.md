@@ -13,3 +13,19 @@
 
 ![example](http://i.imgur.com/xJ780b5.gif)
 
+---
+
+### Step 2: Create Cheatsheet
+
+```r
+# Download Google Sheet to Excel
+fpath <- 'cheatsheet.xlsx'
+sheet_data <- gs_title('cheatsheet data') 
+gs_download(sheet_data, to = fpath, overwrite = TRUE)
+
+# Create cheatsheet
+fpath %>%
+  read_all_sheets %>%
+  make_cheatsheet
+```
+
