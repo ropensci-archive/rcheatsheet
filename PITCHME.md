@@ -7,3 +7,9 @@
 <span style="color:steelblue">Diana Ly & Ramnath Vaidyanathan</span>
 <br>
 
+---
+
+### Step 1: Create Google Sheet with Cheatsheet Data
+
+![example](http://i.imgur.com/xJ780b5.gif)
+
