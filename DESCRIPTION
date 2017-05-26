@@ -1,0 +1,19 @@
+Package: rcheatsheet
+Type: Package
+Title: A package to create cheatsheets
+Version: 0.1.0
+Authors@R: c(
+    person("Ramnath", "Vaidyanathan", role = c("aut", "cre"), email = "ramnath.vaidya@gmail.com"),
+    person("Diana", "Ly", role = c("aut"), email = "ddly@berkeley.edu")
+  )
+Maintainer: Ramnath Vaidyanathan <ramnath.vaidya@gmail.com>
+Description: This package helps create cheatsheets.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports:
+  commonmark,
+  htmltools,
+  highr,
+  readxl
