@@ -17,7 +17,7 @@ __Step 1: Create Google Sheet__
 
 __Step 2: Add cheatsheet data following the template__
 
-![example](https://media.giphy.com/media/3oKIP8Nr7xbEOHMdGM/giphy.gif)
+![example](http://i.imgur.com/xJ780b5.gif)
 
 
 2. Follow the template of labelling worksheets
