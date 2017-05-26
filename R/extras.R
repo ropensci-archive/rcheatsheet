@@ -41,7 +41,7 @@ htmlize <- function(x){HTML(as.character(x))}
 #' @import readxl
 read_all_sheets <- function(path){
   sheet_names <- readxl::excel_sheets(fpath)
-  all_sheets <- lapply(sheets, readxl::read_excel, path = fpath)
+  all_sheets <- lapply(sheet_names, readxl::read_excel, path = fpath)
   names(all_sheets) <- sheet_names
   all_sheets
 }

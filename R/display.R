@@ -35,7 +35,7 @@ ch_block <- function(y){
 }
 
 #' @export
-make_cheatsheet <- function(gs_data, title = 'Cheat Sheet'){
+make_cheatsheet <- function(gs_data, title = 'Cheat Sheet', ...){
   gs_data$Layout <- as.list(gs_data$Layout)
   gs_data$Layout <- lapply(gs_data$Layout, function(x){x[!is.na(x)]})
   navbar <- ch_navbar(title,
