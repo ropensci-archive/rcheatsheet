@@ -42,4 +42,8 @@ fpath %>%
   make_cheatsheet
 ```
 
+
+
+[Slide Deck](https://gitpitch.com/ramnathv/rcheatsheet/master?grs=github&t=moon)
+
   
