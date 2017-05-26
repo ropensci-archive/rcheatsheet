@@ -29,3 +29,9 @@ fpath %>%
   make_cheatsheet
 ```
 
+---
+
+### Step 3: Enjoy your freshly minted cheatsheet.
+
+![cheatsheet](http://i.imgur.com/D9SZUoH.png)
+
